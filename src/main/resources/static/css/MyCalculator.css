@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.calculator{
+	width:320px;
+	height:460px;
+	margin:50px auto;/* 上50px,左右自動居中 */
+	background-color:#368590;
+	border-radius:5px;
+	box-shadow:0px 2px 20px black;
+	overflow:hidden;
+}
+
+.calculator .c_screen{
+	position:relative;
+	width:320px;
+	height:110px;
+	background-color:#c0c0c0;
+	border-radius:5px;
+}
+
+.calculator .c_screen>p{
+	position:absolute;
+	top:10%;
+	height:100px;
+	width:240px;
+	text-align:right;
+	word-break:break-all;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 45px;
+
+}
+
+.calculator .c_row{
+	margin:0 25px;
+}
+
+button{
+	cursor:pointer;/* 指针形状 */
+	width:60px;
+	height:45px;
+	margin:20px 2px 0;
+	border-radius:5px;
+	color:#fff;
+	background-color:#ff8000;
+	outline:none;
+}
+
+button:active{
+	box-shadow:0 0 5px 5px dodgerblue;/* 选中有高亮 */
+}
+.Func{
+	/* 渐变 */
+	background:linear-gradient(to bottom,rgba(252,156,255,1) 0%,rgba(247,126,27,1) 100%);
+}
